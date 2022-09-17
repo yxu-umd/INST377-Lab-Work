@@ -1,11 +1,11 @@
-
+<!-- 
 
 Then add CSS class names to your HTML to make it look like the lab pictures.
 For example: <div class="selector">
 
 You should not need to edit the CSS to do this, only the HTML.
 
-Don't forget to add an actual set of image descriptions to your image carousel.
+Don't forget to add an actual set of image descriptions to your image carousel. -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -16,35 +16,37 @@ Don't forget to add an actual set of image descriptions to your image carousel.
   <link rel='stylesheet' href='style.css'/>
 </head>
 
-<body>
-  <div>
+<body >
+  <div class='wrapper'>
       <!-- wapper -->
-    <header><h1>Yaqi's Lab for INST 377</h1> </header>
-    <div>
+    <header class ="header"><h1>Yaqi's Lab for INST 377</h1> </header>
+    <div class = "container" >
         <!-- container -->
-      <div>
+      <div class = "left_section box">
           <!-- left input -->
         <h2>Alblum Name</h2>
         <ol>
-          <li>Yeah Yeah Yeahs - Fever to Tell</li>
-          <li>Underworld - Dubnobasswithmyheadman</li>
-          <li>Young Fathers - Cocoa Butter</li>
-          <li>Sleigh Bells - Treats</li>
-          <li>Handsome Furs - Face Control</li>
+          <div class = "box">
+            <li>Yeah Yeah Yeahs - Fever to Tell</li>
+            <li>Underworld - Dubnobasswithmyheadman</li>
+            <li>Young Fathers - Cocoa Butter</li>
+            <li>Sleigh Bells - Treats</li>
+            <li>Handsome Furs - Face Control</li>
+          </div>
         </ol>
         
       </div>
-      <div>
+      <div class = "right_section box">
           <!-- right input -->
         <h2>Image Carousel</h2>
-        <div>
+        <div class = "grid img">
             <!-- image box -->
           <img src='images/mochi.gif'alt = 'This is a gif image'>
           <img src='images/mochi.jpg'alt = 'This is a jpg image'>
           <img src='images/mochi.png'alt = 'This is a png image'>
           <img src='images/mochi.svg'alt = 'This is a svg image'>
         </div> 
-        <div>
+        <div class = "box">
             <!-- descriptions -->
           <p>The four images type are sepreratly in left to right order is gif, jpg, png, svg.</p>
         </div>
@@ -57,7 +59,7 @@ Don't forget to add an actual set of image descriptions to your image carousel.
  
   </div>
 
-  <footer><a href="http://github.com/yxu-umd" target="_blank" rel="noopener noreferrer">My Github Homepage</a></footer>
+  <footer class = "footer a"><a href="http://github.com/yxu-umd" target="_blank" rel="noopener noreferrer">My Github Homepage</a></footer>
 
 </body>
 </html>
