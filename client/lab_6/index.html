@@ -1,3 +1,45 @@
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yaqi's Lab for INST 377</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "wrapper">
+        <header class="header">
+            <h1>Yaqi's Lab INST 377</h1>
+        </header>
+        <div class="container">
+            <div class="left_section">
+                <h3>Form Input</h3>
+                <div class="box">
+                    <h5>Restaurant name</h5>
+                    <form action="/api" class="main_form">
+                    <label for="resto"></label>
+                    <input type="text" name="resto" id="resto">
+                    <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+                    <button type="submit" id="get-resto">Submit</button>
+                    </form>
+                </div>   
+            </div> 
+            <div class="right_section box">
+                <h3>Local Restuarants</h3>
+                <div class = 'box' id ="restaurant_list">
+                    A list of local restuarants
+                </div>
+            </div>
+        </div>
+        <footer class = "footer">
+            Yaqi's GitHub: <a href="http://github.com/yxu-umd" rel="noopener noreferrer">My GitHub Homepage</a>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
 <!--
     This is how to build the CSS-only load animation from loading.io    
     <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
